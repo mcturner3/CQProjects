@@ -1,10 +1,8 @@
-
 name: User Story
 description: Capture a user-centered requirement or feature
 title: "[User Story]: "
 labels: [user-story, needs-triage]
-assignees: []
----
+assignees: ["your-github-username"]  # or [] for no default
 
 body:
   - type: markdown
@@ -15,8 +13,9 @@ body:
     id: user_story
     attributes:
       label: User Story
-      description: Write your user story in the format \"As a [type of user], I want [some goal] so that [some reason].\"
-      placeholder: As a [user], I want [goal] so that [value/benefit].
+      description: Write your user story in the format "As a [type of user], I want [some goal] so that [some reason]."
+      placeholder: |
+        As a [user], I want [goal] so that [value/benefit].
 
   - type: markdown
     attributes:
@@ -27,10 +26,6 @@ body:
     attributes:
       label: Acceptance Criteria
       description: Define how you’ll know this user story is complete
-      placeholder: |
-        - Given [context]
-        - When [event]
-        - Then [outcome]
 
   - type: markdown
     attributes:
@@ -41,9 +36,9 @@ body:
     attributes:
       label: Priority
       description: Priority level (1 = High, 5 = Low)
-      placeholder: 3
 
   - type: input
     id: value_area
     attributes:
       label: Value Area
+      description: What part of the product this impacts
