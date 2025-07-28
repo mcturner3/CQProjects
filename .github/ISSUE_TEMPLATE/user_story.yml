@@ -2,7 +2,7 @@ name: User Story
 description: Capture a user-centered requirement or feature
 title: "[User Story]: "
 labels: [user-story, needs-triage]
-assignee: ""
+assignees: ""
 
 body:
   - type: markdown
