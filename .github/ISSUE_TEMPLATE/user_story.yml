@@ -1,8 +1,10 @@
+---
 name: User Story
 description: Capture a user-centered requirement or feature
 title: "[User Story]: "
 labels: [user-story, needs-triage]
-assignees: ''
+assignees: ["your-github-username"]  # or [] for no default
+---
 
 body:
   - type: markdown
@@ -14,8 +16,7 @@ body:
     attributes:
       label: User Story
       description: Write your user story in the format "As a [type of user], I want [some goal] so that [some reason]."
-      placeholder: |
-        As a [user], I want [goal] so that [value/benefit].
+      placeholder: As a [user], I want [goal] so that [value/benefit].
 
   - type: markdown
     attributes:
@@ -42,4 +43,3 @@ body:
     attributes:
       label: Value Area
       description: What part of the product this impacts
-
