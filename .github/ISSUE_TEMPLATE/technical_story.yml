@@ -1,0 +1,38 @@
+name: Technical Story
+description: Document technical implementation work
+title: "[Tech Story]: "
+labels: [technical, user-story]
+assignees: ["your-github-username"]  # or [] for no default
+
+
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Why is this story being implemented?
+      placeholder: Describe the context and any related tickets
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Technical Tasks
+      description: List out key dev tasks or implementation steps
+      placeholder: |
+        - Set up DB migration
+        - Refactor auth service
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        - Given...
+        - When...
+        - Then...
+
+  - type: input
+    id: value_area
+    attributes:
+      label: Value Area
+      placeholder: e.g. Backend, API, DevOps
