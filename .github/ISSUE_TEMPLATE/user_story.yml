@@ -2,7 +2,7 @@ name: User Story
 description: Capture a user-centered requirement or feature
 title: "[User Story]: "
 labels: [user-story, needs-triage]
-placeholder: e.g. Onboarding, Reports, UI   # ✅ now valid
+placeholder1: e.g. Onboarding, Reports, UI   # ✅ now valid
 
 body:
   - type: markdown
@@ -26,7 +26,7 @@ body:
     attributes:
       label: Acceptance Criteria
       description: Define how you’ll know this user story is complete
-      placeholder: |
+      placeholder2: |
         - Given [context]
         - When [event]
         - Then [outcome]
@@ -40,11 +40,11 @@ body:
     attributes:
       label: Priority
       description: Priority level (1 = High, 5 = Low)
-      placeholder: 3
+      placeholder3: 3
 
   - type: input
     id: value_area
     attributes:
       label: Value Area
       description: What part of the product this impacts
-      placeholder: e.g. Onboarding, Reports, UI
+      placeholder4: e.g. Onboarding, Reports, UI
